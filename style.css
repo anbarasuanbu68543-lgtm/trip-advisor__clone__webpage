@@ -1,0 +1,396 @@
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  border: solid #ccc 1px;
+  align-items: center;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  background-color: transparent;
+}
+.navbar__s1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navbar__s1 img {
+  width: 40px;
+}
+.navbar__s2 {
+  display: flex;
+  gap: 30px;
+}
+.navbar__s2 p {
+  border: solid white 1px;
+  padding: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.navbar__s2 p:hover {
+  background-color: #ccc;
+}
+.navbar__s3 {
+  display: flex;
+  align-items: center;
+}
+.navbar__s3 p {
+  border: solid white 1px;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.navbar__s3 p:hover {
+  background-color: #ccc;
+}
+.navbar__s3 button {
+  background-color: #042f2e;
+  color: white;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 16px;
+  gap: 5px;
+  cursor: pointer;
+}
+.navbar__s3 button:hover {
+  background-color: green;
+}
+.navbar__i {
+  display: none;
+}
+.navbar__s4 {
+  display: none;
+}
+
+.where__s1 {
+  text-align: center;
+  margin-top: 80px;
+}
+.where__s1 h1 {
+  font-size: 2.5em;
+}
+.search-tool__s1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  gap: 10px;
+  margin-top: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.search-tool__s1 p:hover {
+  border-bottom: solid black 2px;
+  gap: 10px;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.search__bar {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  border: solid #ccc 1px;
+  border-radius: 30px;
+  gap: 10px;
+  padding: 2px;
+  background-color: #f5f5f5;
+}
+.search__bar input {
+  flex: 1;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.search__bar button {
+  background-color: #00aa6c;
+  color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.search__bar button:hover {
+  background-color: green;
+}
+.image__container {
+  display: flex;
+  justify-content: center;
+}
+
+.image__container img {
+  border-radius: 20px;
+  width: 90%;
+  margin-top: 20px;
+}
+
+.card__title {
+  margin-left: 150px;
+  margin-top: 60px;
+}
+.card__image {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+}
+.card__image img {
+  width: 300px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.image-viewed__title {
+  margin-left: 150px;
+  margin-top: 50px;
+}
+.image__viewed__container {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.image__viewed img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.like__title {
+  margin-left: 150px;
+  margin-top: 50px;
+}
+.like__container__imagebox {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.like__container__image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.inspiration__card {
+  background-color: #ccc;
+}
+.inspiration__title h3 {
+  margin-left: 130px;
+  margin-top: 50px;
+  padding: 10px;
+}
+.inspiration__container {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.inspiration__image img {
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+.icon__title h3 {
+  margin-left: 150px;
+  margin-top: 60px;
+}
+.icon__container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+}
+.icon__container img {
+  width: 300px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.footer {
+  padding: 30px;
+  background-color: #ccc;
+  margin-top: 10px;
+}
+.footer__one {
+  display: flex;
+  padding: 50px;
+  justify-content: space-evenly;
+}
+.footer__one p,
+h5 {
+  margin: 20px;
+}
+.footer__one p:hover {
+  border-bottom: solid black 1px;
+}
+
+.footer__two__s1 {
+  margin-left: 150px;
+}
+
+.footer__two__s2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  margin-left: 150px;
+}
+.footer__two__s2 p {
+  border-bottom: solid black 2px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.footer__two__s2 select {
+  border: solid green 1px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+.footer__two__s2 select:hover {
+  background-color: transparent;
+}
+
+.footer__two__s3 p {
+  margin-left: 100px;
+  font-size: 13px;
+}
+.footer__two__s3 h3 {
+  margin-left: 100px;
+}
+.footer__icon {
+  display: flex;
+  justify-content: right;
+}
+.footer__icon {
+  margin-right: 200px;
+  gap: 20px;
+  cursor: pointer;
+}
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .image__container img {
+    width: 100%;
+    height: 100%;
+  }
+  .search__bar {
+    padding: 30px;
+  }
+  .search__bar input {
+    margin-bottom: 10px;
+    border-bottom: solid black 1px;
+  }
+  .search__bar i {
+    margin-bottom: 10px;
+  }
+  .search__bar button {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .navbar__s2,
+  .navbar__s3 {
+    display: none;
+  }
+  .navbar__i {
+    display: block;
+    margin-right: 100px;
+  }
+  .navbar__s4 {
+    display: block;
+  }
+  .search-tool__s1 {
+    align-items: center;
+    font-size: 11px;
+  }
+  .where__s1 {
+    display: none;
+  }
+  .card__image {
+    justify-content: space-around;
+  }
+  .card__title {
+    margin-left: 20px;
+  }
+  .image-viewed__title {
+    margin-left: 20px;
+  }
+  .image__viewed__container {
+    justify-content: space-around;
+  }
+  .like__title {
+    margin-left: 20px;
+  }
+  .like__container__imagebox {
+    justify-content: space-around;
+  }
+  .inspiration__card h3 {
+    margin-left: 10px;
+  }
+  .inspiration__container {
+    justify-content: space-around;
+  }
+  .inspiration__card {
+    width: 220%;
+  }
+  .icon__place h3 {
+    margin-left: 10px;
+  }
+  .icon__container {
+    justify-content: space-around;
+  }
+
+  .footer__two__section2,
+  .footer__three__section3,
+  .footer__five__section5 {
+    display: none;
+  }
+  .footer__one p {
+    border-bottom: solid black 1px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  .footer__one__section1 p:hover {
+    border-bottom: #00aa6c 1px solid;
+  }
+  .footer__two__s1 {
+    margin-left: 100px;
+    margin-bottom: 20px;
+  }
+  .footer__two__s2 p {
+    display: none;
+  }
+  .footer__two__s2 select {
+    display: block;
+  }
+  .footer__two__s2 select {
+    margin-bottom: 20px;
+  }
+  .footer__two__s3 {
+    margin-bottom: 10px;
+  }
+  .footer__icon {
+    margin-right: 10px;
+  }
+}
