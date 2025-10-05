@@ -306,7 +306,7 @@ h5 {
     height: 100%;
   }
   .search__bar {
-    padding: 30px;
+    padding: 50px;
   }
   .search__bar input {
     
@@ -318,7 +318,7 @@ h5 {
   }
   .search__bar button {
     padding: 10px;
-    margin-bottom:5px;
+    margin-bottom:30px;
   }
   .navbar__s2,
   .navbar__s3 {
