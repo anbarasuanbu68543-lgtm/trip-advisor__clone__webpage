@@ -140,12 +140,12 @@
 }
 
 .card__title {
-  margin-left: 50px;
+  margin-left: 120px;
   margin-top: 60px;
 }
 .card__image {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   flex-grow: 1;
   flex-basis: 20%;
@@ -158,14 +158,14 @@
   margin-top: 10px;
 }
 .image-viewed__title {
-  margin-left: 50px;
+  margin-left: 120px;
   margin-top: 50px;
 }
 .image__viewed__container {
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   gap: 10px;
 }
 
@@ -176,13 +176,13 @@
   margin-top: 20px;
 }
 .like__title {
-  margin-left: 50px;
+  margin-left: 120px;
   margin-top: 50px;
 }
 .like__container__imagebox {
   padding: 10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
 }
@@ -196,14 +196,14 @@
   background-color: #ccc;
 }
 .inspiration__title h3 {
-  margin-left: 50px;
+  margin-left: 120px;
   margin-top: 50px;
   padding: 10px;
 }
 .inspiration__container {
   padding: 10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
 }
@@ -215,12 +215,12 @@
   padding-bottom: 30px;
 }
 .icon__title h3 {
-  margin-left: 50px;
+  margin-left: 120px;
   margin-top: 60px;
 }
 .icon__container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   padding: 10px;
   gap: 10px;
@@ -237,12 +237,12 @@
 }
 .footer__one {
   display: flex;
-  padding: 50px;
+  padding: 10px;
   justify-content: space-evenly;
 }
 .footer__one p,
 h5 {
-  margin: 20px;
+  margin: 5px;
 }
 .footer__one p:hover {
   border-bottom: solid black 1px;
@@ -317,7 +317,7 @@ h5 {
   }
   .search__bar button {
     padding: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .navbar__s2,
   .navbar__s3 {
@@ -378,7 +378,7 @@ h5 {
   }
   .footer__one p {
     border-bottom: solid black 1px;
-    padding: 10px;
+    padding: 5px;
     cursor: pointer;
     margin-left: 20px;
   }
@@ -406,16 +406,25 @@ h5 {
   .inspiration__card {
     display: none;
   }
-  .card__title{
+  .card__title {
     text-align: center;
   }
-  .image-viewed__title{
+  .image-viewed__title {
     text-align: center;
   }
-  .like__title{
+  .like__title {
     text-align: center;
   }
-  .icon__title h3{
+  .icon__title h3 {
     text-align: center;
+  }
+  .footer__two__s3 {
+    justify-content: center;
+  }
+  .footer__icon {
+    justify-content: center;
+  }
+  .footer__two__s1 {
+    display: none;
   }
 }
