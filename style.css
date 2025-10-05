@@ -242,9 +242,12 @@ h5 {
 }
 
 .footer__two__s1 {
-  margin-left: 150px;
+  display: flex;
+  justify-content: space-around;
 }
-
+.select__tag{
+  display: flex;
+}
 .footer__two__s2 {
   display: flex;
   align-items: center;
@@ -252,6 +255,7 @@ h5 {
   padding: 10px;
   margin-left: 150px;
 }
+
 .footer__two__s2 p {
   border-bottom: solid black 2px;
   font-weight: bold;
@@ -305,7 +309,7 @@ h5 {
     margin-bottom: 10px;
   }
   .search__bar button {
-    padding: 10px;
+    padding: 5px;
     margin-bottom: 10px;
   }
   .navbar__s2,
@@ -321,7 +325,7 @@ h5 {
   }
   .search-tool__s1 {
     align-items: center;
-    font-size: 11px;
+    font-size: 8px;
   }
   .where__s1 {
     display: none;
@@ -375,8 +379,7 @@ h5 {
     border-bottom: #00aa6c 1px solid;
   }
   .footer__two__s1 {
-    margin-left: 100px;
-    margin-bottom: 20px;
+    justify-content: space-around;
   }
   .footer__two__s2 p {
     display: none;
