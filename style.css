@@ -11,7 +11,7 @@
   padding: 10px;
   position: sticky;
   top: 0;
-  background-color: transparent;
+  background-color: white;
 }
 .navbar__s1 {
   display: flex;
@@ -140,12 +140,15 @@
 }
 
 .card__title {
-  margin-left: 150px;
+  margin-left: 50px;
   margin-top: 60px;
 }
 .card__image {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  flex-basis: 20%;
   padding: 10px;
   gap: 10px;
 }
@@ -155,13 +158,14 @@
   margin-top: 10px;
 }
 .image-viewed__title {
-  margin-left: 150px;
+  margin-left: 50px;
   margin-top: 50px;
 }
 .image__viewed__container {
   padding: 10px;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
   gap: 10px;
 }
 
@@ -172,13 +176,14 @@
   margin-top: 20px;
 }
 .like__title {
-  margin-left: 150px;
+  margin-left: 50px;
   margin-top: 50px;
 }
 .like__container__imagebox {
   padding: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
   gap: 10px;
 }
 .like__container__image img {
@@ -191,14 +196,15 @@
   background-color: #ccc;
 }
 .inspiration__title h3 {
-  margin-left: 130px;
+  margin-left: 50px;
   margin-top: 50px;
   padding: 10px;
 }
 .inspiration__container {
   padding: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
   gap: 10px;
 }
 .inspiration__image img {
@@ -209,12 +215,13 @@
   padding-bottom: 30px;
 }
 .icon__title h3 {
-  margin-left: 150px;
+  margin-left: 50px;
   margin-top: 60px;
 }
 .icon__container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
   padding: 10px;
   gap: 10px;
 }
@@ -245,7 +252,7 @@ h5 {
   display: flex;
   justify-content: space-around;
 }
-.select__tag{
+.select__tag {
   display: flex;
 }
 .footer__two__s2 {
@@ -395,5 +402,20 @@ h5 {
   }
   .footer__icon {
     margin-right: 10px;
+  }
+  .inspiration__card {
+    display: none;
+  }
+  .card__title{
+    text-align: center;
+  }
+  .image-viewed__title{
+    text-align: center;
+  }
+  .like__title{
+    text-align: center;
+  }
+  .icon__title h3{
+    text-align: center;
   }
 }
